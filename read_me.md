@@ -27,3 +27,13 @@ git add nome_do_aquivo.com_extensao
 git status
 git commit -m "criacao do Projeto" (cria o commit no repositório da máquina)
 git push origin main (mandar para o git Hub - todas as modificações foram agora adicionadas.)
+
+
+*** Conceito de branch (Ramificações) ***
+01) Criar primeiro a branch para depois fazer as edições ;
+git checkout -b "novo-botão" ( criando uma nova branch e com o checkout saindo da branch principal até aqui nomeada main)
+02) Criar um novo arquivo  botao.md
+
+git add . 
+git commit -m "novo botao"
+git push origin novo botao
