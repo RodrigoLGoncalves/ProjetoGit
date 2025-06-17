@@ -31,9 +31,9 @@ git push origin main (mandar para o git Hub - todas as modificações foram agor
 
 *** Conceito de branch (Ramificações) ***
 01) Criar primeiro a branch para depois fazer as edições ;
-git checkout -b "novo-botão" ( criando uma nova branch e com o checkout saindo da branch principal até aqui nomeada main)
+git checkout -b "botão" ( criando uma nova branch e com o checkout saindo da branch principal até aqui nomeada main)
 02) Criar um novo arquivo  botao.md
 
 git add . 
-git commit -m "novo botao"
-git push origin novo botao
+git commit -m "botao"
+git push origin botao
